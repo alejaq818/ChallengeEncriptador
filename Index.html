@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img id="logo" src="./imagenes/logo.png" alt="">
+    </header>
+    <main>
+    <section>
+        <textarea type="text" class="input-text" cols="40" rows="6" placeholder="Ingrese el texto aqui"></textarea>
+        <h6 class="advertencia" style= "font-family: sans-serif; font-size: medium;font-weight: 400; color: #072B61;">Solo letras minúsculas y sin acentos</h6>
+        <div>
+            <button id="encriptar" type="button" onclick="btnencriptar()">Encriptar</button>
+            <button id="desencriptar" type="button" onclick="btndesencriptar()">Desencriptar</button>
+        </div>
+    <!--se puede usar textarea, input o table-->
+    </section>
+    <section> 
+        <textarea type="text" cols="18" rows="8" class="input-text-area"></textarea> 
+        <img id="muñeco" src="./imagenes/Muñeco.png" alt="">
+    </section>
+    </main>
+
+</body>
+<script src="script.js"></script>
+</html>
